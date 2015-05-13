@@ -26,10 +26,12 @@ img {
 }
 
 h3 {
-	margin: 0,0,1em,0;
-
+	margin: 0 0 1em 0;
 }
 
+section {
+	padding-left:10px;
+}
 /****************
 Header definitions - Green
 *****************/
@@ -62,7 +64,7 @@ h2 {
 	font-size: 0.8em;
 	margin: -5px 0 0;
 	font-weight: normal;
-	margin: 15px, 0;
+	margin: 15px 0;
 	font-style: italic;
 }
 
@@ -169,6 +171,8 @@ Page About
 	margin: 0 auto 30px;
 	border-radius: 100%;
 }
+
+
 
 /****************************
 Page Contact 
