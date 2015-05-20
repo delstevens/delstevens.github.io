@@ -5,17 +5,22 @@ GENERAL Definitions
 
 /* Site Body */
 body {
-	background-color:#fff;
-	color:#999;
+	background-color:#E7B8D0;
+	color:#fff;
 	font-family: 'Open Sans', sans-serif;
-	
+	padding-left: 10px;	
 }
 
 #wrapper {
 	max-width: 940px;
 	margin:0 auto;
 	padding: 0 5%;
-	background-color : #ffffff;
+	background-color : #CDABBC;
+	border-left-color: #C96497;
+	border-right-color: #C96497;
+	border-bottom-color: #C96497;
+	border-style: solid;
+	border-width:10px;
 }
 
 a {text-decoration: none;}
@@ -31,14 +36,15 @@ h3 {
 
 section {
 	padding-left:10px;
+	background-color:#CDABBC;
 }
 /****************
 Header definitions - Green
 *****************/
 
 header{
-	background-color: #6ab47b;
-	border-color: #599a68;
+	background-color: #620133;
+	border-color: #C96497;
 	float:left;
 	margin: 0 0 30px 0;
 	padding: 5px 0 0 0;
@@ -102,12 +108,12 @@ footer {
 	text-align: center;
 	clear: both;
 	padding-top:50px;
-	color:#ccc;
+	color:#32061C;
 }
 
 .social-icon {
-	width:20px;
-	height:20px;
+	width:40px;
+	height:40px;
 	margin: 0 5px;
 }
 
@@ -122,7 +128,7 @@ h1, h2 {
 	color: #fff;
 }
 
-nav {background-color: #599a68;
+nav {background-color: #32061C;
 }
 
 nav a, nav a:visited{
@@ -133,6 +139,10 @@ nav a.selected, nav a:hover{
 	color: #32673f;
 }
 
+nav a:hover{
+	background-color: #32061C;
+}
+
 /************************************
 Gallery Definitions - Portfolio page
 ************************************/
@@ -141,13 +151,14 @@ Gallery Definitions - Portfolio page
 	margin: 0;
 	padding: 0;
 	list-style: none;
+	background-color: #620133;
 }
 
 #gallery li {
 	float: left;
 	width: 45%;
 	margin: 2.5%;
-	background-color: #f5f5f5;
+	background-color: #620133;
 	color: #bdc3c7;
 }
 
