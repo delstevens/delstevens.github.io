@@ -23,6 +23,24 @@ body {
 	border-width:10px;
 }
 
+#fadeWrapper {
+	position:relative;
+	margin:auto;
+}
+
+#greyText {
+	position:absolute;
+	left:28px;
+	top:200px;
+	z-index:15;
+	padding: 1% 1%;
+	min-height: 150px;
+	max-width:120px;
+	background-color: #222;
+	font-color:#000;
+	opacity:0.2;
+}
+
 a {text-decoration: none;}
 
 
